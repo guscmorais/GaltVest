@@ -2,7 +2,7 @@
 $(document).ready(function () {
 
     //Velocidade da rotação e contador
-    var speed = 1000;
+    var speed = 4000;
     var run = setInterval('rotate()', speed);
 
     //Pega o valor da largura e calcular o valor da posição da esquerda

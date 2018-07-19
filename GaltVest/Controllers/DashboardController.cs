@@ -16,5 +16,11 @@ namespace GaltVest.Controllers
         {
             return View();
         }
+         public IActionResult BemVindo(string nome, int NumVezes)
+        {
+            ViewData["Mensagem"] = "Olá, " + nome;
+            ViewData["NumVezes"] = NumVezes;
+            return View();
+        }
     }
 }

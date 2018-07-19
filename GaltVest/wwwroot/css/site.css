@@ -24,38 +24,38 @@
 #slides {
     overflow: hidden;
     position: relative;
-    width: 1540px;
-    height: 350px;
+    width: 100%;
+    height: 250px;
     margin-left: -200px;
     border: 1px solid #ccc;
 }
 
-    #slides ul {
-        position: relative;
-        left: 0;
-        top: 0;
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        width: 750px;
-    }
+#slides ul {
+    position: relative;
+    left: 0;
+    top: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 750px;
+}
 
-    #slides li {
-        width: 250px;
-        height: 1000px;
+#slides li {
+    width: 250px;
+    height: 1000px;
     float: left;
 }
 
-#slides li img {
-     padding: 5px;
-     width: 240px;
-     height: 240px;
-     opacity: 0.8;
-}
+    #slides li img {
+        padding: 5px;
+        width: 100%;
+        height: 310px;
+        opacity: 0.8;
+    }
 
 #slides li img:hover {
     padding: 5px;
-    width: 240px;
+    width: 100%;
     height: 240px;
     opacity: 1;
 }
